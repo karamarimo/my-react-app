@@ -1,0 +1,52 @@
+.commentContainer {
+  background: #f4f4f4;
+  margin: 10px;
+  padding: 5px 15px;
+  width: 300px;
+}
+
+.commentContainer > button{
+  visibility: hidden;
+}
+
+.commentContainer:hover > button{
+  visibility: visible;
+}
+
+.commentText {
+  word-wrap: break-word;
+  padding: 5px;
+}
+
+.commentEdit {
+  padding: 5px;
+  display: block;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 5px;
+  font: 15px "sans-serif";
+  color: white;
+  border: none;
+  background: gray;
+  border-radius: 4px;
+  box-shadow: unset;
+}
+
+.button-success {
+  background: dodgerblue;
+}
+
+.button-primary {
+  background: #338;
+}
+
+.button-danger {
+  background: #833;
+}
+
+input[type="checkbox"] {
+  width: 30px;
+  height: 30px;
+}
